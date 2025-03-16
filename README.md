@@ -41,7 +41,7 @@ This project, conducted in Jupyter notebooks, spans four parts to process and an
  ### Part 4: The video presentation and document of outcomes
 - ** Video: https://youtu.be/jX0IirA7tP8
 - ** Document: https://docs.google.com/document/d/14tJpAruAJL5T5cP0JkCf1hbZ0GxfchU1abo3H0zKWjA/edit?usp=sharing 
-- ** We have also attached the pdf report at the github at: https://github.com/Kylapurity/Formative2_dataprocessing/tree/main/report_document
+- ** We have also attached the pdf report  at: https://github.com/Kylapurity/Formative2_dataprocessing/tree/main/report_document
   
 ## Setup Instructions to run the project
 ### Get the Project
@@ -50,20 +50,25 @@ Download the folder with Jupyter notebooks and data files.
 ### Directory Structure (based on your Jupyter environment):
 ```plaintext
 project_folder/
-├── customer_transactions.csv
-├── customer_social_profiles.csv
-├── id_mapping.csv
-├── part1_augmentation.ipynb
-├── part2_merging.ipynb
-├── part3_quality_checks.ipynb
-├── part4_random_forest.ipynb
-├── combined_data_processing_databases_group_11.ipynb
+├── combined_data_processing_and_training_databases_peer_group_11.ipynb
 ├── data_processing_task1.ipynb
 ├── data_processing_task2.ipynb
 ├── data_processing_task3.ipynb
-├── best_random_forest_model.pkl
-├── final_dataset_ready_11.csv
-├── README.md
+├── requirements.txt
+├── initial_datasets/
+│   ├── customer_social_profiles.csv
+│   ├── customer_transactions.csv
+│   ├── id_mapping.csv
+├── derived_datasets/
+│   ├── customer_transactions_augmented.csv
+│   ├── final_customer_data_11.csv
+│   ├── final_dataset_ready_11.csv
+├── model/
+│   ├── model_dataset.ipynb
+├── report_document/
+│   ├── FORMATIVE 2_ GROUP 11 PROJECT SUMMARY REPORT.pdf
+├── saved_model/
+│   ├── best_random_forest_model.pk
 ```
 
 ### Install Python 3.11 and Libraries:
