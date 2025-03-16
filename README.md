@@ -1,14 +1,14 @@
 # Customer Data Processing and Modeling: Lessons Learned
 
 ## Project Overview
-This project, conducted in Jupyter notebooks, spans four parts to process and analyze customer data: augmenting `customer_transactions.csv`, merging it with `customer_social_profiles.csv` using `id_mapping.csv`, validating data quality, and predicting behavior with a Random Forest model. Here’s what I learned from each step, reflecting on the process and insights gained.
+This project, conducted in Jupyter notebooks, spans four parts to process and analyze customer data: augmenting `customer_transactions.csv`, merging it with `customer_social_profiles.csv` using `id_mapping.csv`, validating data quality, and predicting behavior with a Random Forest model. Here’s what we reflected on the process and insights gained.
 
-## What I Learned
+## What We Learned
 ### Part 1: Data Augmentation
 **Task Overview:** I worked with `customer_transactions.csv` (customer IDs, purchase amounts, dates, categories) to create an enriched dataset.
 
 **Lessons Learned:**  
-- **Cleaning Builds Trust:** Filling missing data with averages or common values (customer ratins ) was straightforward, but KNN imputation taught me how to leverage data patterns for smarter fills.  
+- **Cleaning Builds Trust:** Filling missing data with averages or common values (customer ratings) was straightforward, but KNN imputation taught me how to leverage data patterns for smarter fills.  
 - **Synthetic Data Mimics Reality:** Adding noise to purchases showed me how to reflect natural variations. Balancing with SMOTE helped me fix uneven categories, and generating 20% more transactions per customer taught me to predict behavior trends.  Where the shape increaded from 175 to 210
 
 **Outcome:** `customer_transactions_augmented.csv` became a larger, more diverse dataset.
@@ -24,7 +24,7 @@ This project, conducted in Jupyter notebooks, spans four parts to process and an
 **Outcome:** `final_customer_data_11.csv` blended transaction and social data effectively.
 
 ### Part 3: Data Consistency and Quality Checks
-**Task Overview:** I ensured the data was clean and where I used the duplicate and describe to checked for  duplicate() values and how the data is using describe()
+**Task Overview:** I ensured the data was clean and where used the duplicate and describe to check for  duplicate() values and how the data is using describe()
 
 **Lessons Learned:**  
 - **Quality Saves Time:** Removing duplicates and checking categories (e.g., 'Clothing') showed me how errors creep in. About 10% of the unmatched profiles taught me real data has gaps.  
@@ -36,12 +36,12 @@ This project, conducted in Jupyter notebooks, spans four parts to process and an
 ### Part 4: Predictive Modeling with Random Forest
 **Task Overview:** I built a model to predict customer behavior, using the correctional heatmap results.
 - ** We used random forest since it had the best RM2 of 0.86 than Linear regression.
-- ![image](https://github.com/user-attachments/assets/64d216c6-f702-45b0-8f70-f2e5f31ceaec)
+-![image](https://github.com/user-attachments/assets/64d216c6-f702-45b0-8f70-f2e5f31ceaec)
 
  ### Part 4: The video presentation and document of outcomes
 - ** Video: https://youtu.be/jX0IirA7tP8
 - ** Document: https://docs.google.com/document/d/14tJpAruAJL5T5cP0JkCf1hbZ0GxfchU1abo3H0zKWjA/edit?usp=sharing 
-- ** We have also attached the pdf report at the github at document 
+- ** We have also attached the pdf report at the github at: https://github.com/Kylapurity/Formative2_dataprocessing/tree/main/report_document
 **Outcome:** Predictions and insights tied the project together.
 
 ## Setup Instructions
