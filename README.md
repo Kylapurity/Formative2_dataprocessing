@@ -42,9 +42,8 @@ This project, conducted in Jupyter notebooks, spans four parts to process and an
 - ** Video: https://youtu.be/jX0IirA7tP8
 - ** Document: https://docs.google.com/document/d/14tJpAruAJL5T5cP0JkCf1hbZ0GxfchU1abo3H0zKWjA/edit?usp=sharing 
 - ** We have also attached the pdf report at the github at: https://github.com/Kylapurity/Formative2_dataprocessing/tree/main/report_document
-**Outcome:** Predictions and insights tied the project together.
-
-## Setup Instructions
+  
+## Setup Instructions to run the project
 ### Get the Project
 Download the folder with Jupyter notebooks and data files.
 
